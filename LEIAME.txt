@@ -1,0 +1,71 @@
+Projeto Integrador Em Ciência da Computação IV
+Autor: Vitor Gabriel do Carmo Alves da Silva
+Projeto: ChatBot de redes de computadores.
+
+Para executar o programa é necessário ter SWI-Prolog instalado no computador.
+Abra com terminal ou cmd a pasta 'chatbot-sem-sql' e escreva e execute 'swipl -s ./chatbot_julius.pl'
+Após ter entrado no swipl, escreva 'chatbot_julius.'
+
+Para perguntar escreva sempre com as aspas ('') e o ponto final (.).
+Exemplo: 'O que é rede de computadores'.
+
+Para encerrar escreva: 'encerrar'.
+
+Após configurado o usuário, seria só precisa usar 'swipl -s ./initSQL.pl' e 'initSQL.'.
+
+Contudo, chatbot-com-sql não está funcionando corretamente, então não é necessário configurar e avaliar.
+Lista de perguntas:
+
+Base de dados I:
+'O que e rede de computadores'
+'Qual a classificação de redes'
+'O que e um roteador'
+'O que e uma placa de rede'
+'O que e um modem'
+'O que e um repetidor'
+'O que e um switch'
+'O que e uma LAN'
+'O que e MAN'
+'O que e rede WAN'
+'O que e internet',
+'O que e correio eletrônico'
+'O que e um cabo coaxial'
+'O que e um cabo de par trançado'
+'O que e a fibra óptica'
+'O que e radiofrequência'
+'O que sao topologias de redes'
+'O que é uma topologia parcialmente ligada'
+'O que é uma topologia em barramento'
+'O que é uma topologia ponto a ponto'
+'O que é uma topologia multiponto'
+'O que é uma topologia em estrela'
+
+Base de dados II:
+'O que e Ethernet'
+'O que e endereçamento na ethernet e quais são os seus serviços'
+'O que e um Protocolo MAC'
+'O que e Padrão Gigabit Ethernet'
+'O que e Metro Ethernet'
+'O que e o protocolo TCP/IP'
+'O que e IGRP'
+'O que e EIGRP' 
+'O que e SMTP'
+'O que e Telnet'
+'O que e FTP'
+'O que e http'
+'O que e camada de rede'
+'O que e IPv4'
+'O que e ICMP'
+
+Sobre chatbot-com-sql:
+
+Infelizmente o chatbot-com-sql não está funcionando corretamente, então não é preciso verificar.
+A ideia era utilizar Postgresql em conjunção com a linguagem de programação Prolog.
+
+Foi feito um script (initSQL) a qual é criado automaticamente a tabela e valores com as perguntas e resposta para o chatbot Julius.
+
+Seria necessário a instalação do Postgresql no computador e configurar suas variáveis ambiente como descrito no código: `connect("postgres", "senha", "ip ou localhost", porta, "chatbot_rede", Connection)`
+
+Após configurado o usuário, seria só precisa usar 'swipl -s ./initSQL.pl' e 'initSQL.'.
+
+Contudo, chatbot-com-sql não está funcionando corretamente, então não é necessário configurar e avaliar.
